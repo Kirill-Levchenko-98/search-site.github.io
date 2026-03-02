@@ -5,11 +5,16 @@ body{
     background-position: center;
     background-size: cover;
 }
+#p1{
+    color: white;
+    hyphens: auto;
+}
 #div1{
     padding: 20px 0;
     border-bottom: 2px; 
     text-align: center;
     background-color: #000;
+    display: flex;
 }
 .header{
     display: table;
@@ -21,6 +26,27 @@ body{
     color: white;
     box-shadow: 0 0 0 4px #ff0002;
     border-radius: 10px;
+}
+.conttainer11{
+    align-self: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.conttainer1_11{
+    border-bottom: 2px;
+   width: 90%;
+    display: flex;
+    justify-content:center;
+}
+.conttainer1_21{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+.conttainer1_31{
+    width: 10%;
+    display: flex;
 }
 hr{
     border: none;
@@ -38,7 +64,7 @@ hr{
     border-radius: 10px;
 }
 .item:hover {
-    background-color: rgb(129, 206, 131); /* New color on hover */
+    background-color: rgb(129, 206, 131); 
 }
 .conttainer{
     background-image: url('images/image1.jpg');
@@ -73,7 +99,8 @@ hr{
     outline: none;
     cursor: pointer;
 }
-#inpt { width: 100%;
+#inpt { 
+    width: 100%;
     font-size: 4vw; 
     background-color: transparent;
     border: none;
